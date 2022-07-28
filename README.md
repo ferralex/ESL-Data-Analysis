@@ -12,62 +12,49 @@ The goal of this project was to practice the following skills:
 
 ### Index
 
-**0**. [Dataset
-creation](https://www.alessandroferrarese.com/creating-dummy-data-for-my-esl-project/)
+**0**. [Dataset creation](#the-dataset)
 
-``` wp-block-verse
 Creating a dataset with randomly generated personal data and checking correspondences
-```
 
-**1.**
-[Introduction](https://www.alessandroferrarese.com/esl-data-project-part-0/)
+**1.** [Introduction](#introduction)
 
-``` wp-block-verse
 ELS English Language School is a fictional company that has decided to use data analysis for their needs
-```
 
-**2.**
-[Ask](https://www.alessandroferrarese.com/esl-data-project-part-1-ask/)
+**2.** [Ask](#ask)
 
-``` wp-block-verse
 Meeting the CEO of ESL to clarify the problem(s) to be solved
-```
 
-**3.**
-[Prepare](https://www.alessandroferrarese.com/esl-data-project-part-2-prepare/)
+**3.** [Prepare](#prepare)
 
-``` wp-block-verse
 Time to prepare the data. How I created a Database using PostgreSQL
-```
 
 **4.** Process
 
-``` wp-block-verse
-The dataset was created without needing to be cleaned (check Data Creation).
-```
+The dataset was created without needing to be cleaned (check [Data Creation](#the-dataset)).
 
-**5.**
-[Analyze](https://www.alessandroferrarese.com/esl-data-project-part-3-analyze/)
+**5.** [Analyze](#analyze)
 
-``` wp-block-verse
 Querying the DB to find answers to the stakeholder questions
-```
 
-**6.**
-[Share](https://www.alessandroferrarese.com/esl-data-project-part-4-share-1-of-2/)
+**6.** [Share](#share)
 
-``` wp-block-verse
 The findings were presented to the ESL president through dashboards
-```
 
-### The dataset
+
+## The Dataset
 
 The dataset is about Japanese people interested in joining an English
 language school called ESL located in the Kansai region.
 
 <p align="center">
-<img src="https://www.alessandroferrarese.com/wp-content/uploads/2022/07/esl_logo-1024x819.png" width="50%" height="50%">
+<img width="50%" height="50%" src="https://www.alessandroferrarese.com/wp-content/uploads/2022/07/esl_logo-1024x819.png">
 </p>
+<p align="center">
+<sup>Logo customized from <a href="https://www.vecteezy.com/free-vector/hand">Hand Vectors by Vecteezy</a></sup>
+</p>
+
+
+
 
 Every person has a name, last name, e-mail address, gender, postal code,
 residential address, prefecture of residence, phone number, and birth
@@ -88,12 +75,18 @@ wanted them to be a single string.
 <p align="center">
 <img src="https://www.alessandroferrarese.com/wp-content/uploads/2022/07/Screenshot_1-1024x201.jpg">
 </p>
+<p align="center">
+<sup>The dummy data from the website looked like this</sup>
+</p>
 
 ### Creating personal data
 
 
 <p align="center">
 <img src="https://www.alessandroferrarese.com/wp-content/uploads/2022/07/Screenshot_2-1024x213.jpg">
+</p>
+<p align="center">
+<sup>Part of the final result</sup>
 </p>
 
 First of all, I changed the headers' names in order to make them more
@@ -189,6 +182,8 @@ ROWS($A$2:$A$1500)); 1)`.**
 Then, using **=VLOOKUP()** I obtained the trial date. After that, using
 the previously created formulas, the auto-filling did its job great.
 
+## Introduction
+
 ESL is a **<span style="text-decoration: underline;">fictional
 company</span>** with 4 branches in the Kansai area of Japan.
 
@@ -201,6 +196,9 @@ The CEO is looking for a way to improve the schools.
 <img src="https://www.alessandroferrarese.com/wp-content/uploads/2022/07/ESL1.jpg">
 <img src ="https://www.alessandroferrarese.com/wp-content/uploads/2022/07/ESL2.jpg">
 <img src ="https://www.alessandroferrarese.com/wp-content/uploads/2022/07/ESL3.jpg">
+</p>
+<p align="center">
+<sup>Comic made with <a href="https://www.storyboardthat.com/">StoryboardThat</a></sup>
 </p>
 
 After holding an internal meeting, he decides to use Data Analysis.
@@ -240,9 +238,9 @@ review, ...) and every student gives a rating to the teacher.
 <p>After an internal meeting, he decided to ask me how to use data to achieve his goal.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":705,"sizeSlug":"large","linkDestination":"none","className":"is-style-default"} -->
-<figure class="wp-block-image aligncenter size-large is-style-default"><img src="https://www.alessandroferrarese.com/wp-content/uploads/2022/07/strip-1024x307.jpg" alt="" class="wp-image-705"/><figcaption>Strip made with <a href="https://www.storyboardthat.com" target="_blank" rel="noreferrer noopener">StoryboardThat</a></figcaption></figure>
-<!-- /wp:image -->
+<p align="center">
+<img src="https://www.alessandroferrarese.com/wp-content/uploads/2022/07/strip-1024x307.jpg">
+</p>
 
 <!-- wp:heading {"level":3} -->
 <h3>Meeting the stakeholders</h3>
@@ -253,24 +251,24 @@ review, ...) and every student gives a rating to the teacher.
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>We decided to have a meeting in order to <a href="https://www.alessandroferrarese.com/esl-data-project-part-0/" target="_blank" rel="noopener">know the company</a> more in detail and to clarify the problems to be resolved.</p>
+<p>We decided to have a meeting in order to know the company more in detail and to clarify the problems to be resolved.</p>
 <!-- /wp:paragraph -->
+
 
 <!-- wp:paragraph -->
 <p>The stakeholder stated:</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:quote -->
-<blockquote class="wp-block-quote"><p><em>We would like to launch a targetted campaign. Depending on the prefecture of residence of our potential customers, different studying plans would be offered.</em></p><p><em>For our offers, we also would like to consider different parameters like gender and age.</em></p></blockquote>
-<!-- /wp:quote -->
+
+> We would like to launch a targetted campaign. Depending on the prefecture of residence of our potential customers, different studying plans would be offered.</em></p><p><em>For our offers, we also would like to consider different parameters like gender and age.
+
 
 <!-- wp:paragraph -->
 <p>Also,</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:quote -->
-<blockquote class="wp-block-quote"><p><em>Other than getting new customers, mantaining our current students is essential.  </em></p></blockquote>
-<!-- /wp:quote -->
+> Other than getting new customers, mantaining our current students is essential.  </em></p></blockquote>
+
 
 <!-- wp:heading {"level":3} -->
 <h3>Ask</h3>
@@ -296,6 +294,8 @@ review, ...) and every student gives a rating to the teacher.
 <ul><li>What's the age average of the enrolled students (in general and by school)?</li><li>What is students' favorite time for lessons(in general and by school)?</li><li>What's the most chosen plan by students (in general and by school)?</li><li>When do students usually enroll in ELS (in general and by school?</li><li>What gender is the most satisfied with ELS methods (in general and by school)?</li><li>From which prefecture are the most satisfied student coming from?</li><li>What's the age of the most satisfied students (age and age range in general and by school)?</li></ul>
 <!-- /wp:list -->
 
+## Prepare
+
 ESL used to store information about students, staff, teachers, etc on
 separate spreadsheets files.
 
@@ -308,13 +308,15 @@ To get rid of that problem, I decided to create a database that includes
 all those datasets. In this way, the information collected would be
 correlated. Thanks to it, specific queries could be created in order to
 answer the
-[questions](https://www.alessandroferrarese.com/esl-data-project-part-1-ask/)
+[questions](#ask)
 related to the problems.
 
 ### DB Schema
 
-![ESL DB
-Schema](https://www.alessandroferrarese.com/wp-content/uploads/2022/07/ELS_schema-1024x765.jpeg)
+<p align="center">
+<img src="https://www.alessandroferrarese.com/wp-content/uploads/2022/07/ELS_schema-1024x765.jpeg">
+<sup>DB Schema</sup>
+</p>
 
 Information about people interested in joining ESL is stored in the
 student table. When the individual decides to join, the attribute
@@ -410,9 +412,7 @@ self-explanatory, I'm going to describe some.
 
 I decided to create the database using **PostgreSQL**.
 
-Following is the code I wrote for to create the tables and insert the
-data ([click here to check how I create the
-data](https://www.alessandroferrarese.com/creating-dummy-data-for-my-esl-project/)).
+Following is the code I wrote to create the tables and to insert the [data](#the-dataset).
 
 ``` wp-block-verse
 Some of the insert queries are very long. Only a part of them is reported 
@@ -607,9 +607,11 @@ WHERE student.student_id = trial.student_id;
 
 Now the DB is ready to be interrogated.
 
+## Analyze
+
 Now that my information is stored and organized in the database, I can
 answer the [stakeholder
-questions](https://www.alessandroferrarese.com/esl-data-project-part-1-ask/).
+questions](#ask).
 
 To do that, I used PostgreSQL.
 
@@ -634,6 +636,9 @@ ORDER BY rating_avg
 <p align="center">
 <img src ="https://www.alessandroferrarese.com/wp-content/uploads/2022/07/ESL_sql1.jpg">
 </p>
+<p align="center">
+<sup>Students taking lessons at Osaka school are the less satisfied with ESL methods</sup>
+</p>
 
 2\.**Who are the teachers with low ratings?**
 
@@ -654,6 +659,9 @@ ORDER BY rating_avg
 <p align="center">
 <img src="https://www.alessandroferrarese.com/wp-content/uploads/2022/07/ESL_sql2.jpg">
 </p>
+<p align="center">
+<sup>Josephine and Mike need some help. Hopefully Simone and Vanessa can help them</sup>
+</p>
 
 3\.**Who is the staff with the lowest percentage of new students
 signups?**
@@ -669,9 +677,11 @@ GROUP BY s.first_name
 ) x
 ORDER BY p_sign_ups
 ```
-
 <p align="center">
 <img src="https://www.alessandroferrarese.com/wp-content/uploads/2022/07/ESL_sql3.jpg">
+</p>
+<p align="center">
+<sup>Mio needs some help with the trials</sup>
 </p>
 
 4\.**What’s the school with fewer students?**
@@ -684,9 +694,11 @@ WHERE st.enrolled = 'Y'
 GROUP BY school_name
 ORDER BY enrolled_students
 ```
-
 <p align="center">
 <img src="https://www.alessandroferrarese.com/wp-content/uploads/2022/07/ESL_sql4.jpg">
+</p>
+<p align="center">
+<sup>Nara school has “only” 299 enrolled students</sup>
 </p>
 
 5\.**Is there a relationship between teachers’ skills (native speakers
@@ -704,9 +716,10 @@ FROM lesson AS l
 JOIN teacher AS t ON t.teacher_id = l.teacher_id
 WHERE t.native = 'N'
 ```
-
 <p align="center">
 <img src="https://www.alessandroferrarese.com/wp-content/uploads/2022/07/ESL_sql5a.jpg">
+</p><p align="center">
+<sup>Not much difference in appreciation</sup>
 </p>
 
 ``` wp-block-code
@@ -721,9 +734,11 @@ FROM lesson AS l
 JOIN teacher AS t ON t.teacher_id = l.teacher_id
 WHERE t.japanese_speaker = 'N'
 ```
-
 <p align="center">
 <img src="https://www.alessandroferrarese.com/wp-content/uploads/2022/07/ESL_sql5b.jpg">
+</p>
+<p align="center">
+<sup>Not much difference in appreciation</sup>
 </p>
 
 6\.**What level of students appreciates the most Japanese speakers
@@ -739,9 +754,11 @@ WHERE t.japanese_speaker = 'Y'
 GROUP BY level
 ORDER BY average_rating DESC
 ```
-
 <p align="center">
 <img src="https://www.alessandroferrarese.com/wp-content/uploads/2022/07/ESL_sql6a.jpg">
+</p>
+<p align="center">
+<sup>Level 6 students are the most satisfied when they have lessons with Japanese speakers teachers</sup>
 </p>
 
 ``` wp-block-code
@@ -754,9 +771,11 @@ WHERE t.native = 'Y'
 GROUP BY level
 ORDER BY average_rating DESC
 ```
-
 <p align="center">
 <img src="https://www.alessandroferrarese.com/wp-content/uploads/2022/07/ESL_sql6b.jpg">
+</p>
+<p align="center">
+<sup>Level 8 students are the most satisfied when taking lessonswith native teachers</sup>
 </p>
 
 7\.**What kind of lessons is the less appreciated?**
@@ -767,9 +786,11 @@ FROM lesson
 GROUP BY lesson_type
 ORDER BY rating_average
 ```
-
 <p align="center">
 <img src="https://www.alessandroferrarese.com/wp-content/uploads/2022/07/ESL_sql7.jpg">
+</p>
+<p align="center">
+<sup>“Review” lessons are the less appreciated. FC style are the favorites </sup>
 </p>
 
 8\.**What’s the age average of the enrolled students (in general and by
@@ -787,9 +808,11 @@ FROM student
 WHERE enrolled = 'Y'
 ORDER BY age_average
 ```
-
 <p align="center">
 <img src="https://www.alessandroferrarese.com/wp-content/uploads/2022/07/ESL_sql8.jpg">
+</p>
+<p align="center">
+<sup>ESL Osaka is the “youngest” school</sup>
 </p>
 
 9\.**What is students’ favorite time for lessons(in general and by
@@ -804,13 +827,15 @@ WHERE s.name ='ESL Osaka'
 GROUP BY time
 ORDER BY number_of_students DESC
 ```
-
 <p align="center">
 <img src="https://www.alessandroferrarese.com/wp-content/uploads/2022/07/ESL_sql9a.jpg">
 </p>
+<p align="center">
+<sup>ESL students prefer lessons at 6 PM</sup>
+</p>
 
 ``` wp-block-code
---favorite lesson time in OSaka school
+--favorite lesson time in Osaka school
 SELECT l.lesson_time AS time, COUNT(*) AS number_of_students
 FROM lesson AS l
 JOIN school AS s ON s.school_id = l.school_id
@@ -818,9 +843,11 @@ WHERE s.name ='ESL Osaka'
 GROUP BY time
 ORDER BY number_of_students DESC
 ```
-
 <p align="center">
 <img src="https://www.alessandroferrarese.com/wp-content/uploads/2022/07/ESL_sql9b.jpg">
+</p>
+<p align="center">
+<sup>In Osaka school, students prefer lessons at 4 PM</sup>
 </p>
 
 ``` wp-block-code
@@ -832,9 +859,11 @@ WHERE s.name ='ESL Kyoto'
 GROUP BY time
 ORDER BY number_of_students DESC
 ```
-
 <p align="center">
 <img src="https://www.alessandroferrarese.com/wp-content/uploads/2022/07/ESL_sql9c.jpg">
+</p>
+<p align="center">
+<sup>In Kyoto school, students prefer lessons at 6 PM. Compared to Osaka, 4 PM is the less favorite</sup>
 </p>
 
 ``` wp-block-code
@@ -846,9 +875,11 @@ WHERE s.name ='ESL Kobe'
 GROUP BY time
 ORDER BY number_of_students DESC
 ```
-
 <p align="center">
 <img src="https://www.alessandroferrarese.com/wp-content/uploads/2022/07/ESL_sql9d.jpg">
+</p>
+<p align="center">
+<sup>In Kobe school, students prefer lessons at 6 PM</sup>
 </p>
 
 ``` wp-block-code
@@ -860,9 +891,11 @@ WHERE s.name ='ESL Nara'
 GROUP BY time
 ORDER BY number_of_students DESC
 ```
-
 <p align="center">
 <img src="https://www.alessandroferrarese.com/wp-content/uploads/2022/07/ESL_sql9e.jpg">
+</p>
+<p align="center">
+<sup>In Nara school, students prefer lessons at 11 AM</sup>
 </p>
 
 10\.**What’s the most chosen plan by students (in general and by
@@ -877,9 +910,11 @@ WHERE st.enrolled ='Y'
 GROUP BY st.plan
 ORDER BY chosen_times DESC
 ```
-
 <p align="center">
 <img src="https://www.alessandroferrarese.com/wp-content/uploads/2022/07/ESL_sql10a.jpg">
+</p>
+<p align="center">
+<sup>Plan 5 is the favorite plan</sup>
 </p>
 
 ``` wp-block-code
@@ -894,6 +929,9 @@ ORDER BY school_name, chosen_times DESC
 <p align="center">
 <img src="https://www.alessandroferrarese.com/wp-content/uploads/2022/07/ESL_sql10b.jpg">
 </p>
+<p align="center">
+<sup>In Kobe school, the favorite plan is Plan 8 / In Kyoto school, the favorite plan is Plan 6 / In Nara school, the favorite plan is Plan 5 / In Osaka school, the favorite plan is Plan 2</sup>
+</p>
 
 11\.**When do students usually enroll in ELS (in general and by
 school?**)
@@ -906,10 +944,12 @@ WHERE t.signed = 'Y'
 GROUP BY month
 ORDER BY signups DESC
 ```
-
 <p align="center">
 <img src="https://www.alessandroferrarese.com/wp-content/uploads/2022/07/ESL_sql11a.jpg">
 </img>
+<p align="center">
+<sup>December is the month when most new students decide to enroll </sup>
+</p>
 
 ``` wp-block-code
 --amount of signups by month in Osaka school
@@ -920,10 +960,12 @@ WHERE t.signed = 'Y' AND s.name ='ESL Osaka'
 GROUP BY month
 ORDER BY signups DESC
 ```
-
 <p align="center">
 <img src="https://www.alessandroferrarese.com/wp-content/uploads/2022/07/ESL_sql11b.jpg">
 </img>
+<p align="center">
+<sup>In Osaka school, the most popular month for enrollment is September</sup>
+</p>
 
 ``` wp-block-code
 --amount of signups by month in Kyoto school
@@ -934,10 +976,12 @@ WHERE t.signed = 'Y' AND s.name ='ESL Kyoto'
 GROUP BY month
 ORDER BY signups DESC
 ```
-
 <p align="center">
 <img src="https://www.alessandroferrarese.com/wp-content/uploads/2022/07/Screenshot_11c.jpg">
 </img>
+<p align="center">
+<sup>In Kyoto school, the most popular month for enrollment is December</sup>
+</p>
 
 ``` wp-block-code
 --amount of signups by month in Kobe school
@@ -948,10 +992,12 @@ WHERE t.signed = 'Y' AND s.name ='ESL Kobe'
 GROUP BY month
 ORDER BY signups DESC
 ```
-
 <p align="center">
 <img src="https://www.alessandroferrarese.com/wp-content/uploads/2022/07/Screenshot_11d.jpg">
 </img>
+<p align="center">
+<sup>In Kobe school, the most popular month for enrollment is August</sup>
+</p>
 
 ``` wp-block-code
 --amount of signups by month in Nara school
@@ -962,9 +1008,11 @@ WHERE t.signed = 'Y' AND s.name ='ESL Nara'
 GROUP BY month
 ORDER BY signups DESC
 ```
-
 <p align="center">
 <img src="https://www.alessandroferrarese.com/wp-content/uploads/2022/07/Screenshot_11e.jpg">
+</p>
+<p align="center">
+<sup>In Nara school, the most popular month for enrollment is November</sup>
 </p>
 
 12\.**What gender is the most satisfied with ELS methods (in general and
@@ -978,9 +1026,11 @@ JOIN lesson AS l ON s.student_id =l.student_id
 GROUP BY s.gender
 ORDER BY rating_average DESC
 ```
-
 <p align="center">
 <img src="https://www.alessandroferrarese.com/wp-content/uploads/2022/07/Screenshot_12a.jpg">
+</p>
+<p align="center">
+<sup>Female students are slightly more satisfied than males</sup>
 </p>
 
 ``` wp-block-code
@@ -992,9 +1042,11 @@ JOIN school AS sc ON sc.school_id = l.school_id
 GROUP BY school_name, s.gender
 ORDER BY school_name, rating_average DESC
 ```
-
 <p align="center">
 <img="https://www.alessandroferrarese.com/wp-content/uploads/2022/07/Screenshot_12b.jpg">
+</p>
+<p align="center">
+<sup>In every school except Osaka, females are more satisfied than males</sup>
 </p>
 
 13\.**From which prefecture are the most satisfied student coming
@@ -1007,9 +1059,11 @@ JOIN lesson AS l ON s.student_id =l.student_id
 GROUP BY s.prefecture
 ORDER BY rating_average DESC
 ```
-
 <p align="center">
 <img src="https://www.alessandroferrarese.com/wp-content/uploads/2022/07/Screenshot_13.jpg">
+</p>
+<p align="center">
+<sup>Students living in Nara are the most satisfied with ESL methods</sup>
 </p>
 
 14\.**What’s the age range of the most satisfied students (in general
@@ -1031,10 +1085,12 @@ JOIN lesson AS l ON s.student_id= l.student_id
 GROUP BY age_category
 ORDER BY rating_average DESC
 ```
-
 <p align="center">
-<img="https://www.alessandroferrarese.com/wp-content/uploads/2022/07/Screenshot_14a.jpg">
-</img>
+<img src="https://www.alessandroferrarese.com/wp-content/uploads/2022/07/Screenshot_14a.jpg">
+</p>
+<p align="center">
+<sup>Over 65 years old and teenagers are the the most satisfied with ESL methods</sup>
+</p>
 
 ``` wp-block-code
 --students satisfaction by age range in Osaka school
@@ -1055,9 +1111,11 @@ WHERE sc.name='ESL Osaka'
 GROUP BY age_category
 ORDER BY rating_average DESC
 ```
-
 <p align="center">
-<img="https://www.alessandroferrarese.com/wp-content/uploads/2022/07/Screenshot_14b.jpg">
+<img src="https://www.alessandroferrarese.com/wp-content/uploads/2022/07/Screenshot_14b.jpg">
+</p>
+<p align="center">
+<sup>In Osaka school, students between 25 and 34 years old are the most satisfied</sup>
 </p>
 
 ``` wp-block-code
@@ -1078,9 +1136,11 @@ WHERE sc.name='ESL Kyoto'
 GROUP BY age_category
 ORDER BY rating_average DESC
 ```
-
 <p align="center">
-<img="https://www.alessandroferrarese.com/wp-content/uploads/2022/07/Screenshot_14c.jpg">
+<img src="https://www.alessandroferrarese.com/wp-content/uploads/2022/07/Screenshot_14c.jpg">
+</p>
+<p align="center">
+<sup>In Kyoto school, students between 35 and 44 years old are the most satisfied</sup>
 </p>
 
 ``` wp-block-code
@@ -1101,9 +1161,11 @@ WHERE sc.name='ESL Kobe'
 GROUP BY age_category
 ORDER BY rating_average DESC
 ```
-
 <p align="center">
-<img="https://www.alessandroferrarese.com/wp-content/uploads/2022/07/Screenshot_14d.jpg">
+<img src="https://www.alessandroferrarese.com/wp-content/uploads/2022/07/Screenshot_14d.jpg">
+</p>
+<p align="center">
+<sup>In Kobe school, students between 25 and 34 years old are the most satisfied</sup>
 </p>
 
 ``` wp-block-code
@@ -1124,31 +1186,31 @@ WHERE sc.name='ESL Nara'
 GROUP BY age_category
 ORDER BY rating_average DESC
 ```
-
 <p align="center">
-<img="https://www.alessandroferrarese.com/wp-content/uploads/2022/07/Screenshot_14e.jpg">
+<img src="https://www.alessandroferrarese.com/wp-content/uploads/2022/07/Screenshot_14e.jpg">
+</p>
+<p align="center">
+<sup>In Nara school, teenagers students are the most satisfied</sup>
 </p>
 
+## Share
+
 Once that the
-[questions](https://www.alessandroferrarese.com/esl-data-project-part-1-ask/)
+[questions](#ask)
 were
-[answered](https://www.alessandroferrarese.com/esl-data-project-part-3-analyze/),
+[answered](#analyze),
 the findings were shown to the ESL president through two dashboards.
 
 The first dashboard answered the following statement:
 
-``` wp-block-verse
-    We would like to launch a targetted campaign. Depending on the prefecture of residence of our potential customers, different studying plans would be offered.
+> We would like to launch a targetted campaign. Depending on the prefecture of residence of our potential customers, different studying plans would be offered.
 
-    For our offers, we also would like to consider different parameters like gender and age.
-```
+> For our offers, we also would like to consider different parameters like gender and age.
 
-<div id="viz1658911207913" class="tableauPlaceholder" style="position: relative">
+### [Open the Tableau Dashboard](https://public.tableau.com/views/ESL2/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 [![BEST TARGET
 ](https://public.tableau.com/static/images/ES/ESL2/Dashboard1/1_rss.png)](#)
-
-</div>
 
 A dropdown menu at the top shows findings about specific (or all)
 schools.
@@ -1198,7 +1260,7 @@ This dashboard answers the following questions:
   - What level of students appreciates the most Japanese speakers
     teachers and native speakers teachers?
 
-<div id="viz1658906765740" class="tableauPlaceholder" style="position: relative">
+### [Open the Tableau Dashboard](https://public.tableau.com/views/ESL1_16586519370720/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 [![ESL INSIGHTS
 ](https://public.tableau.com/static/images/ES/ESL1_16586519370720/Dashboard1/1_rss.png)](#)
