@@ -1,5 +1,4 @@
 # ESL-Data-Analysis
-Data Analysis from scratch
 
 The goal of this project was to practice the following skills:
 
@@ -1210,7 +1209,7 @@ The first dashboard answered the following statement:
 ### [Open the Tableau Dashboard](https://public.tableau.com/views/ESL2/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 [![BEST TARGET
-](https://public.tableau.com/static/images/ES/ESL2/Dashboard1/1_rss.png)](#)
+](https://public.tableau.com/static/images/ES/ESL2/Dashboard1/1_rss.png)]
 
 A dropdown menu at the top shows findings about specific (or all)
 schools.
@@ -1263,7 +1262,7 @@ This dashboard answers the following questions:
 ### [Open the Tableau Dashboard](https://public.tableau.com/views/ESL1_16586519370720/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 [![ESL INSIGHTS
-](https://public.tableau.com/static/images/ES/ESL1_16586519370720/Dashboard1/1_rss.png)](#)
+](https://public.tableau.com/static/images/ES/ESL1_16586519370720/Dashboard1/1_rss.png)]
 
 </div>
 
