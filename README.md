@@ -52,9 +52,6 @@ language school called ESL located in the Kansai region.
 <sup>Logo customized from <a href="https://www.vecteezy.com/free-vector/hand">Hand Vectors by Vecteezy</a></sup>
 </p>
 
-
-
-
 Every person has a name, last name, e-mail address, gender, postal code,
 residential address, prefecture of residence, phone number, and birth
 date as long as an English proficiency level and other columns.
@@ -417,6 +414,8 @@ Following is the code I wrote to create the tables and to insert the [data](#the
 Some of the insert queries are very long. Only a part of them is reported 
 ```
 
+[The whole .sql file to create the db can be found here](esl_db.sql)
+
 ``` wp-block-code
 CREATE TABLE staff (
 staff_id SERIAL,
@@ -613,6 +612,8 @@ answer the [stakeholder
 questions](#ask).
 
 To do that, I used PostgreSQL.
+
+[The .sql file with all the queries can be found here](esl_queries.sql)
 
 ### Queries
 
