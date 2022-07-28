@@ -1,4 +1,5 @@
-# ESL-Data-Analysis
+# ESL Data Analysis
+### From the dataset creation to dashboards in Tableau, through DB creation and SQL
 
 The goal of this project was to practice the following skills:
 
